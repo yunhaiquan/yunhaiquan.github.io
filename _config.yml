@@ -1,6 +1,6 @@
 # Site settings
-title: YuH Blog
-SEOTitle: 云海权的博客 | YunH Blog
+title: YhQ Blog
+SEOTitle: YhQ的博客 | YhQ Blog
 header-img: img/home-bg.jpg
 email: yunhaiquan666@163.com
 description: ""
@@ -50,7 +50,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: YuHblog
+duoshuo_username: YhQblog
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -82,7 +82,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "YuH Blog",
+        title: "YhQ Blog",
         href: "https://yunhaiquan.github.io"
     },{
         title: "Foo",
