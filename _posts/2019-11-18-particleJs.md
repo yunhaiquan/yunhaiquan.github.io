@@ -141,7 +141,6 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
 ```
 key	|option type / notes|	example
-:-: | :-: | :-:
 particles.number.value| number | 40 |
 particles.number.density.enable | boolean | true / false |
 particles.number.density.enable	|boolean|	true / false
