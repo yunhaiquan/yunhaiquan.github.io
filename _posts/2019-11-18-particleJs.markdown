@@ -140,6 +140,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 }
 
 ```
+
 |key	|option type / notes|	example|
 | ------------- | ------------- | ------------- |
 particles.number.value| number | 40 |
