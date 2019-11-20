@@ -13,14 +13,16 @@ tags:
 ## Foreword
 
 随着html5```Canvas```元素的推出呢，现在的浏览器具备了更强大的绘制图像的功能，甚至```canvas```已经可以用来制作大型网页游戏，关于Canvas的js库也越来越多，有动画库还有图表库比如Echart等等。今天我就要给大家推荐一款非常炫酷的Canvas粒子特效，particleJs——一个轻量级的创建粒子背景的 JavaScript 库。
+##### 下面这张图片有木有很熟悉，其实下边这个背景粒子效果就可以通过particle.js实现的。
+![avatar](https://img1.dxycdn.com/2019/1120/285/3380684252546350091-2.png)
 
-首先我们来看一下它的使用方式
-
+#### 引入方式
 ```js
 <div id="particles-js"></div>
 
 <script src="particles.js"></script>
 ```
+#### 重要配置文件
 app.js
 ```js
 particlesJS.load('particles-js', 'assets/particles.json', function() {
@@ -145,8 +147,8 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 key | option type / notes | example
 ----|---------|------
 `particles.number.value` | number | `40`
-`particles.number.density.enable` | boolean | `true` / `false` 
-`particles.number.density.value_area` | number | `800`
+`particles.number.density.enable （粒子稀密程度）` | boolean | `true` / `false` 
+`particles.number.density.value_area (每一个粒子所占用的空间)` | number | `800`
 `particles.color.value` | HEX (string) <br /> RGB (object) <br /> HSL (object) <br /> array selection (HEX) <br /> random (string) | `"#b61924"` <br /> `{r:182, g:25, b:36}` <br />  `{h:356, s:76, l:41}` <br /> `["#b61924", "#333333", "999999"]` <br /> `"random"`
 `particles.shape.type` | string <br /> array selection | `"circle"` <br /> `"edge"` <br /> `"triangle"` <br /> `"polygon"` <br /> `"star"` <br /> `"image"` <br /> `["circle", "triangle", "image"]`
 `particles.shape.stroke.width` | number | `2`
@@ -200,3 +202,7 @@ key | option type / notes | example
 `retina_detect` | boolean | `true` / `false`
 
 -------------------------------
+
+ 通过以上配置我们发挥自己的想象实现各种各样的效果。当然我们也可以直接访问[http://vincentgarreau.com/particles.js/](http://vincentgarreau.com/particles.js ).在线调试效果 
+#####参考
+github项目地址[https://github.com/VincentGarreau/particles.js/](https://github.com/VincentGarreau/particles.js/ )
